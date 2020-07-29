@@ -1,0 +1,6 @@
+- Membuat frontend visitors
+- Membuat frontend user
+- Membuat backend dengan nodeJS
+- Menghubungkan frontend dan backend
+- Membuat halaman untuk admin
+- Membuat halaman login dan registrasi user

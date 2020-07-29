@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style-nav.css">
+    <link rel="stylesheet" href="css/style-slide-news.css">
+    <link rel="stylesheet" href="css/style-content.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLscore</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="min-bg display-none"></div>
+    <div class="navbar">
+        <div class="logo"><img src="img/logoepl2.png"><span><b>PL</b><em>score</em></span></div>
+        <i class="material-icons" style="font-size:30px;color: whitesmoke;">view_headline</i>
+        <!-- Desktop Nav -->
+        <ul class="max-line">
+            <li class="max-list actived"><a href="#"><i class="fa fa-home" style="font-size:26px;"></i></a></li>
+            <li class="max-list"><a href="#">Berita</a></li>
+            <li class="max-list"><a href="#">Pertandingan</a></li>
+            <li class="max-list"><a href="#">Tentang</a></li>
+            <li class="max-list"><a href="#"><i class="fa fa-user-circle" style="font-size:26px;"><span id="usename-account">Hamzah767612</span></i></a></li>
+        </ul>
+        <!-- Android/Apple Nav -->
+        <div class="for-js display-none">
+            <ul class="min-line">
+                <li class="min-list actived"><a href="#">Beranda</a></li>
+                <li class="min-list"><a href="#">Berita</a></li>
+                <li class="min-list"><a href="#">Pertandingan</a></li>
+                <li class="min-list"><a href="#">Tentang</a></li>
+                <li class="min-list"><a href="#"><i class="fa fa-user-circle" style="font-size:26px;"><span id="usename-account">Hamzah767612</span></i></a></li>
+            </ul>
+        </div>
+        
+    </div>
+    
+    <!-- Hot News Slider -->
+    <div class="news-slideshow">
+        <ul>
+            <li><img src="img/img1.jpg" class="show" id="img1"></li>
+            <li><img src="img/img6.jpg" class="hide" id="img2"></li>
+            <li><img src="img/img7.jpg" class="hide" id="img3"></li>
+            <li><img src="img/img8.jpg" class="hide" id="img4"></li>
+        </ul>
+        <div class="dot">
+            <i class='fas fa-square actived-i'></i>
+            <i class='fas fa-square'></i>
+            <i class='fas fa-square'></i>
+            <i class='fas fa-square'></i>
+        </div>
+        <div class="triangle">
+            <i class='fas fa-angle-left'></i>
+            <i class='fas fa-angle-right'></i>
+        </div>
+        <div class="text-news-slideshow">
+            <div class="text-news-anm">
+                <h2><b>Premier League telah Berakhir</b></h2>
+                <h4>ini dia daftar pemain terbaik dari...</h4>
+                <a href="#">Baca Sekarang</a>
+            </div>
+            <div class="text-display-none">
+                <h2><b>klopp pengubah berlian</b></h2>
+                <h4>bagaimana cara Jurgen Klopp mengubah pemain seharga....</h4>
+                <a href="#">Baca Sekarang</a>
+            </div>
+            <div class="text-display-none">
+                <h2><b>E.Hazard ingin kembali ke Chelsea</b></h2>
+                <h4>Hazard berjanji bakal kembali ke Chelsea jika...</h4>
+                <a href="#">Baca Sekarang</a>
+            </div>
+            <div class="text-display-none">
+                <h2><b>Marcelo Bielsa membuat...</b></h2>
+                <h4>Pelatih Leeds United membuat sejarah baru setelah...</h4>
+                <a href="#">Baca Sekarang</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Fixtures -->
+    <div class="fixtures">
+        <h3>Hasil Akhir</h3>
+        <div class="fix fix1">
+            <img src="img/wolves-logo.png">
+            <b class="b1">2</b><span>VS</span><b class="b2">0</b>
+            <img src="img/chelsea-logo.png">
+            <div class="fix-display-none">
+                <p>Mason Mount 46+1 <i class="fa fa-soccer-ball-o"></i></p>
+                <p>Oliver Giroud 46+4 <i class="fa fa-soccer-ball-o"></i></p>
+            </div>
+        </div>
+        <div class="fix fix2">
+            <img src="img/leichester-logo.png">
+            <b class="b1">2</b><span>VS</span><b class="b2">0</b>
+            <img src="img/Mu-logo.png">
+            <div class="fix-display-none">
+                <p>Bruno Fernandes 71(P) <i class="fa fa-soccer-ball-o"></i></p>
+                <span><i class='fas fa-square' style="color: red;"></i> 90+4 Jonny Evans</span>
+                <p>Jesse Lingard 90+8 <i class="fa fa-soccer-ball-o"></i></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <span>PLscore</span><p>Copyright @ 2020 | PLscore Allright deserved | <a href="#">Contact</a></p>
+    </div>
+
+    
+<script src="js/script.js"></script>
+</body>
+</html>

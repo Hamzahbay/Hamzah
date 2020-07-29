@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+.navbar {
+    background-color: #37003c;
+    position: sticky;
+    padding: 40px;
+    top: 0;
+    z-index: 2;
+}
+.navbar ul li span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.navbar .logo span {
+    position: absolute;
+    margin-left: 60px;
+    top: 30%;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.navbar .logo span em {
+    font-size: smaller;
+    text-decoration: line-through;
+}
+.navbar .max-line {
+    display: inline-flex;
+    list-style: none;
+}
+.navbar .logo img {
+    width: 80px;
+    position: absolute;
+    top: 8px;
+    left: 2vw;
+}
+.navbar .max-line {
+    top: 10%;
+    right: 2vw;
+    position: absolute;
+}
+.navbar .max-line .max-list {
+    margin-top: 2px;
+}
+.navbar .max-line .max-list a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px 2vw;
+    box-sizing: border-box;
+}
+.navbar .max-line .max-list a:hover , .navbar .material-icons:hover{
+    color: #87508b;
+    transition: ease-in-out 200ms;
+}
+
+@media (max-width: 900px) {
+    .navbar .max-line {
+        display: none;
+    }
+}
+.navbar .material-icons {
+    display: none;
+    float: right;
+    margin-top: -15px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.min-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+    display: none;
+}
+.navbar .min-line {
+    margin-top: 50px;
+    position: absolute;
+    background-color: #37003c;
+    border-radius: 0 0 10px 10px;
+    padding: 0 40px;
+    right: 0;
+    top: 35%;
+    transition: ease 200ms;
+    z-index: 2;
+    display: none;
+}
+.navbar .min-line .min-list {
+    margin-bottom: 20px;
+    list-style: none;
+}
+.navbar .min-line .min-list a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.navbar .min-line .min-list a:hover {
+    color: #87508b;
+    transition: ease-in-out 200ms;
+}
+.navbar .min-line .list-min1 a {
+    padding-right: 59px;
+}
+.navbar .min-line .list-min2 a {
+    padding-right: 82px;
+}
+.navbar .min-line .list-min4 a {
+    padding-right: 63px;
+}
+.navbar .min-line .list-min5 a {
+    padding-right: 116.5px;
+}
+@media (max-width: 900px) {
+    .navbar .material-icons, .navbar .min-line, .min-bg {
+        display: block;
+    }
+}
+.display-none {
+    display: none;
+}
+
+.navbar .max-line .actived a, .navbar .max-line .actived i {
+    color: #87508b;
+}
+.navbar .min-line .actived a, .navbar .max-line .actived i {
+    color: #87508b;
+}
+.animate1 {
+    animation: anm1 linear 100ms;
+}
+@keyframes anm1 {
+    20%{
+        transform: translateX(-5px);
+    }
+    40%{
+        transform: translateX(5px);
+    }
+    60%{
+        transform: translateX(-5px);
+    }
+    80%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(-5px);
+    }
+}
